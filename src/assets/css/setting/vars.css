@@ -2,10 +2,11 @@
     --mainEng-font: "Montserrat";
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
-    --mainPoint-font : "Shrikhand";
+    --mainPoint-font: "Shrikhand";
 
     --mainBg-color: #EBC652;
-    --subBg100: #d1af49;
+    --mainBg-hover: #d1af49;
+    --subBg100: #583E26;
     --subBg200: #fff;
     --subBg300: #fff;
     --subBg400: #fff;
