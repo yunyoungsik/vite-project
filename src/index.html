@@ -5,12 +5,240 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Vite를 이용한 사이트 만들기</title>
-  <link rel="icon" type="" href="assets/img/favicon.svg">
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg">
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
+  <div id="skip">
+    <a href="#header">헤더 영역 바로가기</a>
+    <a href="#intro">소개 영역 바로가기</a>
+    <a href="#skill">스킬 영역 바로가기</a>
+    <a href="#site">사이트 영역 바로가기</a>
+    <a href="#port">포트폴리오 영역 바로가기</a>
+    <a href="#contact">연락처 영역 바로가기</a>
+    <a href="#footer">푸터 영역 바로가기</a>
+  </div>
+  <!-- //skip -->
 
+  <header id="header" role="banner">
+    <div class="header__inner">
+      <div class="header__logo">
+        <a href="#">portfolio <em>vit</em></a>
+      </div>
+      <nav class="header__nav" role="navigation" aria-label="메인 메뉴">
+        <ul>
+          <li>
+            <a href="#intro">intro</a>
+          </li>
+          <li>
+            <a href="#skill">skill</a>
+          </li>
+          <li>
+            <a href="#site">site</a>
+          </li>
+          <li>
+            <a href="#port">portfolio</a>
+          </li>
+          <li>
+            <a href="#contact">contact</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__nav__mobile" id="headerToggle" role="button" aria-controls="primary-menu" aria-expanded="false">
+        <span></span>
+      </div>
+    </div>
+  </header>
+  <!-- //header -->
+
+  <main id="main" role="main">
+    <section id="intro">
+      <div class="intro__inner">
+        <h1 class="intro__title">
+          frontend developer
+        </h1>
+        <div class="intro__lines" aria-hidden="true">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+
+        <div class="intro__text">
+          <div class="text">
+            <div>talent is</div>
+            <div>found at the end of the</div>
+            <div>effort</div>
+          </div>
+          <div class="img">
+            <img src="assets/img/img00.jpg" alt="프로필 이미지">
+          </div>
+        </div>
+
+        <div class="intro__lines bottom" aria-hidden="true">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </section>
+    <!-- //intro -->
+
+    <section id="skill">
+      <div class="skill__inner">
+        <h2 class="skill__title">
+          challenge <em>도전</em>
+        </h2>
+        <div class="skill__desc">
+          <div>
+            <span>1.</span>
+            <h3>접근성을 높이는 웹 디자인에 도전합니다.</h3>
+            <p>
+              웹 접근성은 모든 사용자들이 웹사이트를 사용할 수 있도록 하는 중요한 요소입니다.
+              나는 웹사이트를 개발함에 있어 접근성을 고려하여 UI/UX를 디자인하고,
+              ARIA 라벨링 및 스킵 네비게이션을 구현하여 누구나 편리하게 이용할 수 있도록 노력합니다.
+            </p>
+          </div>
+          <div>
+            <span>2.</span>
+            <h3>성능 최적화를 위한 코드 최적화에 도전합니다.</h3>
+            <p>
+              빠른 웹사이트로의 접근은 사용자 경험을 향상시키는 중요한 요소입니다.
+              나는 이미지 최적화, 코드 번들링 등의 기술을 사용하여 웹사이트의 로딩 속도를 최적화하고,
+              사용자들에게 빠르고 효율적인 서비스를 제공합니다.
+            </p>
+          </div>
+          <div>
+            <span>3.</span>
+            <h3>다양한 브라우저와 기기에서 호환성을 확보합니다.</h3>
+            <p>
+              웹사이트가 모든 브라우저와 기기에서 정상적으로 동작하는 것은 중요합니다.
+              나는 크로스 브라우징 및 레스폰시브 디자인 원칙을 준수하여,
+              Chrome, Firefox, Safari, Edge와 같은 다양한 브라우저에서도 원활한 작동을 보장하며, 모바일 기기에서도 최적화된 경험을 제공합니다.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //skill -->
+
+    <section id="site">
+      <div class="site__inner">
+        <div class="site__title">
+          site coding <em>작업물</em>
+        </div>
+        <div class="site__wrap">
+          <div class="siteitem s1">
+            <span class="num">1.</span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              · VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">view</a>
+              <a href="#">code</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <div class="siteitem s2">
+            <span class="num">2.</span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <div class="siteitem s3">
+            <span class="num">3.</span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+          <div class="siteitem s4">
+            <span class="num">4.</span>
+            <div class="text">
+              <div>make</div>
+              <div>site compliant width</div>
+              <div>webstandard</div>
+            </div>
+            <h3 class="title">
+              VITE를 이용한 사이트 제작
+            </h3>
+            <div class="btn">
+              <a href="#">code</a>
+              <a href="#">view</a>
+            </div>
+            <div class="info">
+              <span>site coding</span>
+              <span>production period : two days</span>
+              <span>use stack : html5/css, css variable, vite</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- //site -->
+
+    <section id="port">
+      port
+    </section>
+    <!-- //port -->
+
+    <section id="contact">
+      contact
+    </section>
+    <!-- //contact -->
+  </main>
+  <!-- //main -->
+
+  <footer id="footer" role="contentinfo">
+    footer
+  </footer>
+  <!-- //footer -->
+
+  <script type="module" src="assets/js/main.js"></script>
 </body>
 
 </html>

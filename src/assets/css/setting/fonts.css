@@ -1,0 +1,25 @@
+/* 영문 */
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+.mont {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 한글 */
+@import url("https://websfont.github.io/nanumSquareNeo/nanumSquareNeo.css");
+@import url("https://websfont.github.io/gmarket/gmarket.css");
+
+.nanum {
+    font-family: "nanumSquareNeo";
+}
+
+.gamrket {
+    font-family: "gmarket";
+}
+
+/* 포인트 */
+@import url('https://fonts.googleapis.com/css2?family=Shrikhand&display=swap');
+
+.Shrikhand {
+    font-family: "Shrikhand";
+}
