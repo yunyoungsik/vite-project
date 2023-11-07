@@ -65,9 +65,10 @@
     font-family: var(--mainEng-font);
     font-size: 3rem;
     font-weight: 700;
-    padding: 2vw 0 1vw;
+    padding: 3vw 0;
     text-transform: uppercase;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .siteitem .text div:nth-child(2) {
@@ -77,7 +78,7 @@
 .siteitem .title {
     color: var(--mainBg-color);
     font-weight: 700;
-    margin-bottom: 1vw;
+    margin-bottom: 0.5vw;
     position: relative;
     margin-left: 1vw;
 }
@@ -95,13 +96,14 @@
 
 .siteitem .btn a {
     display: inline-block;
-    width: 10vw;
-    font-size: 1rem;
+    width: 7vw;
+    font-size: 0.8rem;
     font-weight: 700;
     text-align: center;
-    padding: 0.7vw 1vw;
+    padding: 0.3vw 1vw;
     border-radius: 5vw;
     margin-bottom: 1vw;
+    box-sizing: border-box;
 }
 
 .siteitem .btn a:nth-child(1) {
