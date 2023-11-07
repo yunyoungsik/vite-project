@@ -24,19 +24,19 @@
 </details>
 
 ## 구현 기능
-[구글폰트](https://fonts.google.com/)
-- 구글 폰트 적용<br>
-[Lenis](https://lenis.studiofreight.com/)
-- smooth 효과 적용<br>
-[GSAP](https://gsap.com/)
-- GSAP를 이용한 가로 효과<br>
-[Javascript]
-- Javascript 메뉴 클릭 이동 효과
-- JavaScript 모듈 기능 적용<br>
-[기타]
-- 웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
-- vite 빌드 작업 `npm run build`
-- netilfy 배포 작업
+1. [구글폰트](https://fonts.google.com/)
+    - 구글 폰트 적용
+2. [Lenis](https://lenis.studiofreight.com/)
+    - smooth 효과 적용
+3. [GSAP](https://gsap.com/)
+    - GSAP를 이용한 가로 효과
+4. [Javascript]
+    - Javascript 메뉴 클릭 이동 효과
+    - JavaScript 모듈 기능 적용
+5. [기타]
+    - 웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
+    - vite 빌드 작업 `npm run build`
+    - netilfy 배포 작업
 
 ## 설치
 1. npm create vite@latest
