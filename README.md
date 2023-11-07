@@ -25,14 +25,14 @@
 
 ## 구현 기능
 [구글폰트](https://fonts.google.com/)
-- 구글 폰트 적용
+- 구글 폰트 적용<br>
 [Lenis](https://lenis.studiofreight.com/)
-- smooth 효과 적용
+- smooth 효과 적용<br>
 [GSAP](https://gsap.com/)
-- GSAP를 이용한 가로 효과
+- GSAP를 이용한 가로 효과<br>
 [Javascript]
 - Javascript 메뉴 클릭 이동 효과
-- JavaScript 모듈 기능 적용
+- JavaScript 모듈 기능 적용<br>
 [기타]
 - 웹표준 준수를 위한 스킵 메뉴 및 aria, role 적용
 - vite 빌드 작업 `npm run build`
@@ -56,8 +56,8 @@
 1. Settings -> Pages에서 Branch에서 none을 main으로 변경
 
 ## 트러블 슈팅
-- [403에러](https://beagle-dev.tistory.com/244#google_vignette)
-Unable to access 'https://github.com/github_id/git_reposit_name.git'/ The requested URL returned error: 403
+[403에러](https://beagle-dev.tistory.com/244#google_vignette)
+- Unable to access 'https://github.com/github_id/git_reposit_name.git'/ The requested URL returned error: 403
 1. 인증하기
     1. git remote set-url origin "https://github-username@github.com/github-username/github-repository-name.git" 를 입력해주세요.
     2. github-username 에는 본인이 github 에서 사용하는 username 을 적으시면 되고 github-repository-name 에는 git reposit 이름을 입력하시면됩니다.. “” 큰따음표는 제거해야합니다.
